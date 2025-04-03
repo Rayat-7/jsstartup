@@ -5,8 +5,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import UserStartups from "@/app/components/UserStartups";
 import { Suspense } from "react";
-import { StartupCardSkeleton } from "@/components/StartupCard";
-
+import { StartupCardSkeleton } from "@/app/components/StartupCard";
 export const experimental_ppr = true;
 
 const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
