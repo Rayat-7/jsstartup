@@ -62,7 +62,7 @@ const workSans = localFont({
 // });
 
 export const metadata: Metadata = {
-  title: "Yc Directory",
+  title: "Rc Directory",
   description: "Pitch ,vote and grow",
 };
 
@@ -77,7 +77,7 @@ export default function RootLayout({
         className={workSans.variable +"w-full"}
       >
         {children}
-        <Toaster />
+        <Toaster className="border-2 border-pink-500" />
       </body>
     </html>
   );
